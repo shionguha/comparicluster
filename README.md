@@ -16,13 +16,13 @@ Clustering approaches used:
 
 I have used commonly available R libraries to construct this script so that anyone can choose to replicate this on their system. I have also provided sample data to make this work. Currently, this is optimized for 2X2 clusters as social scientists will probably explore dual relationships first but will be extended to 3X3 and 4X4 in the future.
 
-HOWTOUSE:
+<b>HOWTOUSE:</b>
 
 In directory with dataset:
 
-datasetname.csv comparicluster.R
+R CMD BATCH comparicluster.R
 
-TODOS:
+<b>TODOS:</b>
 
 1. Calculating cluster metrics (dunn index, rand index, entropy) to show which clustering method might be the most optimal for your data.
 2. Writing code to compute optimal number of clusters for k-means and gmm
