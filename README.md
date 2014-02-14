@@ -20,7 +20,7 @@ HOWTOUSE:
 
 In directory with dataset:
 
-<datasetname> comparicluster.R
+datasetname.csv comparicluster.R
 
 TODOS:
 
