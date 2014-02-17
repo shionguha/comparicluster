@@ -24,9 +24,9 @@ R CMD BATCH comparicluster.R
 
 <b>EXAMPLE:</b>
 
-dataset: spaeth_01.csv (free. available here: http://people.sc.fsu.edu/~jburkardt/datasets/spaeth/spaeth_01.txt)
+<b>dataset:</b> spaeth_01.csv (free. available here: http://people.sc.fsu.edu/~jburkardt/datasets/spaeth/spaeth_01.txt)
 
-output: https://github.com/shionguha/comparicluster/blob/master/comparicluster.png
+<b>output:</b> https://github.com/shionguha/comparicluster/blob/master/comparicluster.png
 
 <b>TODOS:</b>
 
