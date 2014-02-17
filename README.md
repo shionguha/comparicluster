@@ -7,6 +7,7 @@ comparicluster
 2. Writing code to compute optimal number of clusters for k-means and gmm
 3. More types of data?
 4. Change example to Fishers iris dataset (its a classic !)
+5. Make prettier outputs.
 
 This is a simple R script which takes an input dataset and performs 4 different clustering algorithms on it using the 4 most common clustering approaches. It then evaluates each algorithm with standard clustering metrics and presents them on a single pdf.
 
