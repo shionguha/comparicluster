@@ -22,9 +22,14 @@ In directory with dataset:
 
 R CMD BATCH comparicluster.R
 
+<b>EXAMPLE:</b>
+
+dataset: spaeth_01.csv (free. available here: http://people.sc.fsu.edu/~jburkardt/datasets/spaeth/spaeth_01.txt)
+output: https://github.com/shionguha/comparicluster/blob/master/comparicluster.png
+
 <b>TODOS:</b>
 
 1. Calculating cluster metrics (dunn index, rand index, entropy) to show which clustering method might be the most optimal for your data.
 2. Writing code to compute optimal number of clusters for k-means and gmm
 3. More types of data?
-4. Fishers dataset as an example
+4. Change example to Fishers iris dataset (its a classic !)
