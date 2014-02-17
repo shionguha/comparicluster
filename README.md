@@ -1,6 +1,13 @@
 comparicluster
 ==============
 
+<b>TODOS:</b>
+
+1. Calculating cluster metrics (dunn index, rand index, entropy) to show which clustering method might be the most optimal for your data.
+2. Writing code to compute optimal number of clusters for k-means and gmm
+3. More types of data?
+4. Change example to Fishers iris dataset (its a classic !)
+
 This is a simple R script which takes an input dataset and performs 4 different clustering algorithms on it using the 4 most common clustering approaches. It then evaluates each algorithm with standard clustering metrics and presents them on a single pdf.
 
 The idea is to make a quick and dirty r script for different clustering approaches available to non-statisticians or social scientists/HCI folk who don't use R. 
@@ -27,10 +34,3 @@ R CMD BATCH comparicluster.R
 <b>dataset:</b> spaeth_01.csv (free. available here: http://people.sc.fsu.edu/~jburkardt/datasets/spaeth/spaeth_01.txt)
 
 <b>output:</b> https://github.com/shionguha/comparicluster/blob/master/comparicluster.png
-
-<b>TODOS:</b>
-
-1. Calculating cluster metrics (dunn index, rand index, entropy) to show which clustering method might be the most optimal for your data.
-2. Writing code to compute optimal number of clusters for k-means and gmm
-3. More types of data?
-4. Change example to Fishers iris dataset (its a classic !)
